@@ -5,23 +5,6 @@ import json
 
 # url = "https://www.decodethis.com/webservices/decodes/1B7HF13Z31J242472/xB6xzN1vUA-dXdL41EZf/1.json"
 
-# payload = ""
-# headers = {
-#     'cache-control': "no-cache",
-#     'Postman-Token': "1483c8ff-3ba8-4394-ba73-626f215dfe52"
-#     }
-
-# response = requests.request("GET", url, data=payload, headers=headers)
-
-# print(response.text)
-
-# decode_payload = ""
-# decode_headers = {
-# 		'cache-control': "no-cache",
-# 		'Postman-Token': "1483c8ff-3ba8-4394-ba73-626f215dfe52"
-# 		}
-
-
 #	#	#	#	#	#
 
 class Decoder(object):
@@ -95,7 +78,7 @@ class Decoder(object):
 							'%s')
 						""" % (propulsionType, vin, status, make, model, year))
 		else:
-			
+
 			vin = resjsonobj['decode']['VIN']
 
 			self.dbconn.query(
