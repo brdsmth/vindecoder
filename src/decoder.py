@@ -3,7 +3,7 @@ import psycopg2
 import json
 
 
-# url = "https://www.decodethis.com/webservices/decodes/1B7HF13Z31J242472/xB6xzN1vUA-dXdL41EZf/1.json"
+# API url = "https://www.decodethis.com/webservices/decodes/1B7HF13Z31J242472/xB6xzN1vUA-dXdL41EZf/1.json"
 
 #	#	#	#	#	#
 
